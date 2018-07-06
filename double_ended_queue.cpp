@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream>
 using namespace std;
 int front = 1, rear = 6;
@@ -58,3 +59,13 @@ int main(){
 	return 0;
 	
 }
+=======
+void insert_at_back(int queue[], int element, int &rear, int array_size){
+    if(rear == array_size)
+        printf("Overflow\n");
+    else{
+        queue[rear] = element;
+        rear = rear + 1;
+    }
+}
+>>>>>>> 4fee85f7a02eb180270f32d24655b69d109ce50e
