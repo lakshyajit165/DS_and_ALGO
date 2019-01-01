@@ -1,20 +1,8 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-int main()
-{
-    int i = -5;
-    while (i <= 5)
-    {
-        if (i >= 0)
-            break;
-        else
-        {
-            i++;
-            continue;
-        }
-        cout << "GeeksCourse \n";
-    }
+int main(){
     
+    int a = 5,b = 9;
+    cout<<a<<" "<<b;    
     return 0;
 }
