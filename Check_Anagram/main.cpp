@@ -7,7 +7,7 @@ bool areAnagram(string s1, string s2){
     
     if(n1!=n2)
         return false;
-    
+    //sort both the strings
     sort(s1.begin(),s1.end());
     sort(s2.begin(),s2.end());
     
