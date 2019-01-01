@@ -1,25 +1,55 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   main.cpp
- * Author: Elkay
- *
- * Created on 1 January, 2019, 11:11 PM
- */
-
-#include <cstdlib>
-
+//Initial Template for C++
+#include <bits/stdc++.h>
 using namespace std;
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return 0;
+void checkString(string s);
+//Position this line where user code will be pasted.
+int main() {
+	int t;
+	cin>>t;
+	cin.ignore();
+	while(t--)
+	{
+	    
+	    string s;
+	    getline(cin,s);
+	    checkString(s);
+	   
+	}
+	return 0;
 }
 
+/*Please note that it's Function problem i.e.
+you need to write your solution in the form of Function(s) only.
+Driver Code to call/invoke your function is mentioned above.*/
+
+//User function Template for C++
+void checkString(string s)
+{
+    int v=0;
+    int c=0;
+    
+    //Your code here
+    for(int i = 0; i<s.length(); i++){
+        if(s[i] == ' ')
+            continue;
+        else if(s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' ||
+        s[i] == 'u'){
+            v++;
+        }else{
+            c++;
+        }    
+    }
+       
+        
+        
+   
+    
+    if(v>c)
+    cout<<"Yes";
+    else if(c>v)
+    cout<<"No";
+    else
+    cout<<"Same";
+    
+    cout<<endl;
+}
