@@ -42,6 +42,7 @@ int PairCount(int arr[], int n, int sum){
     
     //return half the twice count
     return twice_count/2;
+<<<<<<< HEAD
 }
 int main(){
     
@@ -55,3 +56,18 @@ int main(){
     cout<<PairCount(arr,n,sum);
     return 0;
 }
+=======
+}
+int main(){
+    
+    int n,sum;
+    cin>>n;
+    int arr[n];
+    for(int i = 0; i<n; i++){
+        cin>>arr[i];
+    }
+    cin>>sum;
+    cout<<PairCount(arr,n,sum);
+    return 0;
+}
+>>>>>>> d08e427670c35c08ab10c67449c5b66c39e51ce2
