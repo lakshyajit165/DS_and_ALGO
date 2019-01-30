@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
 
-#define EVEN 0
-#define ODD 1
+void operation(int *a, int *b)
+{
+    b = a;
+    *b = 5;   // line 1
+}
+
+int x = 2, y = 3; 
 int main()
 {
-    int i = 3;
-    switch (i & 1)
-    {
-        case EVEN: cout << "Even";
-                break;
-        case ODD: cout << "Odd";
-                break;
-        default: cout << "Default";
-    }
+    operation(&x, &y);
+    if((x - y) % 2 == 0)
+     cout << "Even";
+    else
+     cout << "Cannot determine";
     return 0;
 } 
