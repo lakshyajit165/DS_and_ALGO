@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Delete_Pairs.dir/main.cpp.o  -o Delete_Pairs.exe -Wl,--out-implib,libDelete_Pairs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

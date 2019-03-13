@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/queue_ops_stl.dir/main.cpp.o  -o queue_ops_stl.exe -Wl,--out-implib,libqueue_ops_stl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,3 +1,4 @@
+//Initial Template for C++
 #include <bits/stdc++.h>
 using namespace std;
 stack<int>_push(int arr[],int n);
@@ -22,6 +23,13 @@ int main() {
     }
     return 0;
 }
+
+
+
+/*Please note that it's Function problem i.e.
+you need to write your solution in the form of Function(s) only.
+Driver Code to call/invoke your function is mentioned above.*/
+
 //User function Template for C++
 /* inserts elements of the array into
    stack and return the stack
@@ -32,21 +40,17 @@ stack<int>_push(int arr[],int n)
     stack<int> s;
     s.push(arr[0]);
     for(int i = 1; i<n; i++){
-        if(arr[i] < s.top()){
+        if(arr[i] <= s.top())
             s.push(arr[i]);
-        }else{
+        else
             s.push(s.top());
-        }
     }
-
 
     return s;
 }
-
 /* print minimum element of the stack each time
    after popping
 */
-
 void _getMinAtPop(stack<int>s)
 {
     // your code here
@@ -54,5 +58,4 @@ void _getMinAtPop(stack<int>s)
         cout<<s.top()<<" ";
         s.pop();
     }
-
 }

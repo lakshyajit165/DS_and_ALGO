@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/ds_and_algo.dir/main.cpp.o  -o ds_and_algo.exe -Wl,--out-implib,libds_and_algo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

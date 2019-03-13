@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/CL_Stack_CPP.dir/main.cpp.o  -o CL_Stack_CPP.exe -Wl,--out-implib,libCL_Stack_CPP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
