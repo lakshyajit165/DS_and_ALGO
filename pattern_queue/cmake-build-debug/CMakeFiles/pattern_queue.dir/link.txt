@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/pattern_queue.dir/main.cpp.o  -o pattern_queue.exe -Wl,--out-implib,libpattern_queue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
