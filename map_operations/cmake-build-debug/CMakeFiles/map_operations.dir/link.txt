@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/map_operations.dir/main.cpp.o  -o map_operations.exe -Wl,--out-implib,libmap_operations.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

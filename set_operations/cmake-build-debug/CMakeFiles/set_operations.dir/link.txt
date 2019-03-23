@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/set_operations.dir/main.cpp.o  -o set_operations.exe -Wl,--out-implib,libset_operations.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

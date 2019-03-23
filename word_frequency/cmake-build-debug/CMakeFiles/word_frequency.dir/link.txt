@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/word_frequency.dir/main.cpp.o  -o word_frequency.exe -Wl,--out-implib,libword_frequency.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
